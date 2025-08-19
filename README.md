@@ -34,8 +34,60 @@ ENV FLASK_RUN_HOST=0.0.0.0
 CMD ["flask", "run"]
 
 ```
-# Ansible Playbook Project1
-## Setup an Ansible cluster with the controller running on Amazon Linux 2 and the 4 nodes in which 2 running on Amazon linux and 2 running on ubuntu.
+
+## `Step 2:` Build and Run the Application Locally with Docker
+
+Open your terminal, navigate to the root directory of your project, and run the following commands:
+### Build the Docker Image
+```
+docker build -t crypto-app .
+```
+### Run the Docker Container
+```
+docker run -d --name crypto-app -p 8080:5000 crypto-app
+```
+### Verify Application Locally by opening your browser and navigate to the link bellow. You should see the login page of the crypto application.
+```
+http://localhost:8080/
+```
+![Alt text](login-page.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![Alt text](Ansible-ubuntu-controller-1.png)
 
