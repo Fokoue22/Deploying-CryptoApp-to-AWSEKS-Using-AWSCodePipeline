@@ -50,7 +50,7 @@ docker run -d --name crypto-app -p 8080:5000 crypto-app
 ```
 http://localhost:8080/
 ```
-![Alt text](login-page.png)
+![Alt text](images/login-page.png)
 
 
 
